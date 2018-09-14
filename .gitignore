@@ -1,0 +1,10 @@
+#OS junk files
+[Tt]humbs.db
+*.DS_Store
+
+#Ignore all directories
+*/
+
+#Apart from these
+!StochOptim/
+!NeuralNetworks/
