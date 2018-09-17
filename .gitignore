@@ -3,8 +3,9 @@
 *.DS_Store
 
 #Ignore all directories
-*/
+/*
+/*/
 
 #Apart from these
-!StochOptim/
-!NeuralNetworks/
+!/StochOptim/
+!/NeuralNetworks/
