@@ -46,6 +46,7 @@ population = InitializePopulation(populationSize, numberOfGenes);
 
 for iGeneration = 1:numberOfGenerations
     
+    pause(0.2); % Remember to remove this
     maximumFitness = 0.0; % Assumes non−negative fitness values!
 	xBest = zeros(1,2); % [0 0]
 	bestIndividualIndex = 0;
