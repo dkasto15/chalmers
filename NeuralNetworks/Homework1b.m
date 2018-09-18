@@ -24,6 +24,7 @@ for p = 1:lenPatterns
         end
     end
     
+    % Plot and print output in proper formats
     figure(p)
     subplot(1,2,1)
     imshow(-reshape(patterns(p, :), [10, 16])', 'InitialMagnification', 'fit')
