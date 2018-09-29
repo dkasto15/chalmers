@@ -1,7 +1,7 @@
 function PlotIterations(polynomialCoefficients, iterationValues)
 % Plots the polynomial as well as the iterates (as circles) xj, j = 0, 1,...
     FIGURE_PADDING_FACTOR = 0.1;
-    xMin = min(iterationValues) * (1 - FIGURE_PADDING_FACTOR);
+    xMin = min(iterationValues) * (1 + FIGURE_PADDING_FACTOR);
     xMax = max(iterationValues) * (1 + FIGURE_PADDING_FACTOR);
     x = linspace(xMin, xMax);
     
